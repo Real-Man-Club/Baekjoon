@@ -1,7 +1,7 @@
 from collections import deque
 
 f, s, g, u, d = map(int, input().split())
-visited = [False for _ in range(f)]
+visited = [False for _ in range(f + 1)]
 
 def bfs():
     q = deque()
