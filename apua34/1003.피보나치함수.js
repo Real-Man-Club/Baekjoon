@@ -1,4 +1,11 @@
-const input = require('fs').readFileSync('input.txt').toString().trim().split("\n");
+const fs = require("fs");
+const filePath = process.platform === 'linux' ? '/dev/stdin' : 'input.txt';
+
+let input = fs.readFileSync(filePath)
+    .toString()
+    .trim()
+    .split("\n")
+    
 input.shift() // 맨 앞에값 제거
 
 for (let i of input) {
