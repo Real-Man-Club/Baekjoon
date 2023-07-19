@@ -1,3 +1,15 @@
+/**
+ * @file 16926.배열 돌리기 1.js
+ * @author @apua34
+ * @brief 배열 돌리기 1
+ * @version 0.1
+ * @date 2023-07-016
+ * @strategy 구현
+ *
+ * @copyright Copyright (c) 2023 @apua34
+ *
+ */
+
 const fs = require("fs");
 const filePath = process.platform === 'linux' ? '/dev/stdin' : 'input.txt';
 
